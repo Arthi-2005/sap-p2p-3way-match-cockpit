@@ -1,0 +1,205 @@
+[
+  {
+    "invoiceId": "INV-902101",
+    "supplier": {
+      "vendorId": "VEN-40112",
+      "name": "Global Tech Alloys Corp",
+      "tier": "Tier-1 Strategic",
+      "country": "USA",
+      "paymentTerms": "2% 10, Net 30",
+      "discountDaysRemaining": 3,
+      "discountValue": 960,
+      "rating": "A (Reliable)",
+      "contractRef": "CTR-US-2024-881"
+    },
+    "poNumber": "PO-450008810",
+    "grNumber": "GR-50001920",
+    "poData": { "material": "MAT-8821 Aluminum Billet 6061", "orderedQty": 100, "unitPrice": 475.0, "total": 47500.0, "plant": "1010 (US East)" },
+    "grData": { "receivedQty": 100, "receivedDate": "2026-08-20", "status": "CONFIRMED", "dockLocation": "Bay-04" },
+    "invoiceData": {
+      "invoicedQty": 100,
+      "invoicedUnitPrice": 480.0,
+      "totalAmount": 48000.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-22",
+      "blockCode": "PP",
+      "blockReason": "Price Variance (+1.05% - Within Minor Tolerance)",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "NONE_HAPPY_PATH"
+  },
+  {
+    "invoiceId": "INV-902102",
+    "supplier": {
+      "vendorId": "VEN-88291",
+      "name": "Apex Precision Bearings GmbH",
+      "tier": "Tier-2 Standard",
+      "country": "Germany",
+      "paymentTerms": "Net 30",
+      "discountDaysRemaining": 0,
+      "discountValue": 0,
+      "rating": "B (Moderate)",
+      "contractRef": "CTR-EU-2025-412"
+    },
+    "poNumber": "PO-450008815",
+    "grNumber": "GR-50001928",
+    "poData": { "material": "MAT-3310 Industrial Spindle Bearings", "orderedQty": 50, "unitPrice": 1200.0, "total": 60000.0, "plant": "1020 (EU Central)" },
+    "grData": { "receivedQty": 50, "receivedDate": "2026-08-19", "status": "CONFIRMED", "dockLocation": "Bay-12" },
+    "invoiceData": {
+      "invoicedQty": 50,
+      "invoicedUnitPrice": 1370.0,
+      "totalAmount": 68500.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-23",
+      "blockCode": "PP",
+      "blockReason": "Severe Price Variance (+14.17% Exceeds 5% Threshold)",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "SEVERE_PRICE_VARIANCE_BREACH"
+  },
+  {
+    "invoiceId": "INV-902103",
+    "supplier": {
+      "vendorId": "VEN-10928",
+      "name": "CyberLogix Microchips Pte",
+      "tier": "Tier-3 High Risk",
+      "country": "Singapore",
+      "paymentTerms": "3% 10, Net 30",
+      "discountDaysRemaining": 2,
+      "discountValue": 2550,
+      "rating": "D (High Risk)",
+      "contractRef": "CTR-SG-2023-109"
+    },
+    "poNumber": "PO-450008822",
+    "grNumber": "GR-50001935",
+    "poData": { "material": "MAT-1090 Microcontroller IC 32-bit", "orderedQty": 1000, "unitPrice": 85.0, "total": 85000.0, "plant": "1030 (APAC South)" },
+    "grData": { "receivedQty": 600, "receivedDate": "2026-08-21", "status": "PARTIALLY_RECEIVED", "dockLocation": "Bay-01" },
+    "invoiceData": {
+      "invoicedQty": 1000,
+      "invoicedUnitPrice": 85.0,
+      "totalAmount": 85000.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-22",
+      "blockCode": "BD",
+      "blockReason": "Quantity Discrepancy (400 Units Invoiced Without Goods Receipt)",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "UNRECEIVED_GOODS_DEFICIT"
+  },
+  {
+    "invoiceId": "INV-902104",
+    "supplier": {
+      "vendorId": "VEN-77215",
+      "name": "Nordic Structural Steel AB",
+      "tier": "Tier-1 Strategic",
+      "country": "Sweden",
+      "paymentTerms": "2% 10, Net 45",
+      "discountDaysRemaining": 4,
+      "discountValue": 1840,
+      "rating": "A (Reliable)",
+      "contractRef": "CTR-SE-2024-882"
+    },
+    "poNumber": "PO-450008830",
+    "grNumber": "GR-50001941",
+    "poData": { "material": "MAT-7701 Carbon Steel Beams", "orderedQty": 200, "unitPrice": 440.0, "total": 88000.0, "plant": "1040 (Nordics)" },
+    "grData": { "receivedQty": 200, "receivedDate": "2026-08-22", "status": "CONFIRMED", "dockLocation": "Yard-East" },
+    "invoiceData": {
+      "invoicedQty": 200,
+      "invoicedUnitPrice": 460.0,
+      "totalAmount": 92000.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-23",
+      "blockCode": "PP",
+      "blockReason": "Contract Energy Surcharge #882 (+4.55%)",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "APPROVED_SURCHARGE_CONTRACT"
+  },
+  {
+    "invoiceId": "INV-902105",
+    "supplier": {
+      "vendorId": "VEN-66014",
+      "name": "Precision Fasteners & Seals Ltd",
+      "tier": "Tier-1 Strategic",
+      "country": "UK",
+      "paymentTerms": "2% 10, Net 30",
+      "discountDaysRemaining": 1,
+      "discountValue": 640,
+      "rating": "A (Reliable)",
+      "contractRef": "CTR-UK-2025-004"
+    },
+    "poNumber": "PO-450008845",
+    "grNumber": "GR-50001950",
+    "poData": { "material": "MAT-2204 Titanium Bolts M8", "orderedQty": 500, "unitPrice": 64.0, "total": 32000.0, "plant": "1010 (US East)" },
+    "grData": { "receivedQty": 500, "receivedDate": "2026-08-21", "status": "CONFIRMED", "dockLocation": "Bay-08" },
+    "invoiceData": {
+      "invoicedQty": 500,
+      "invoicedUnitPrice": 64.0,
+      "totalAmount": 32000.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-23",
+      "blockCode": "NONE",
+      "blockReason": "Clean 3-Way Match - Ready for Payment",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "NONE_HAPPY_PATH"
+  },
+  {
+    "invoiceId": "INV-902106",
+    "supplier": {
+      "vendorId": "VEN-55190",
+      "name": "BioPharma Chemical Reagents SA",
+      "tier": "Tier-1 Strategic",
+      "country": "Switzerland",
+      "paymentTerms": "3% 15, Net 60",
+      "discountDaysRemaining": 6,
+      "discountValue": 3750,
+      "rating": "A (Reliable)",
+      "contractRef": "CTR-CH-2025-991"
+    },
+    "poNumber": "PO-450008860",
+    "grNumber": "GR-50001962",
+    "poData": { "material": "MAT-9040 High-Purity Solvent Grade A", "orderedQty": 250, "unitPrice": 500.0, "total": 125000.0, "plant": "1020 (EU Central)" },
+    "grData": { "receivedQty": 250, "receivedDate": "2026-08-22", "status": "CONFIRMED", "dockLocation": "Cold-Storage-02" },
+    "invoiceData": {
+      "invoicedQty": 250,
+      "invoicedUnitPrice": 500.0,
+      "totalAmount": 125000.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-23",
+      "blockCode": "NONE",
+      "blockReason": "Automated Match Passed - Pending Batch Run",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "NONE_HAPPY_PATH"
+  },
+  {
+    "invoiceId": "INV-902107",
+    "supplier": {
+      "vendorId": "VEN-33921",
+      "name": "Summit Hydraulic Systems Inc",
+      "tier": "Tier-2 Standard",
+      "country": "USA",
+      "paymentTerms": "1.5% 10, Net 30",
+      "discountDaysRemaining": 2,
+      "discountValue": 1140,
+      "rating": "B (Moderate)",
+      "contractRef": "CTR-US-2024-550"
+    },
+    "poNumber": "PO-450008872",
+    "grNumber": "GR-50001970",
+    "poData": { "material": "MAT-6110 Heavy Hydraulic Actuators", "orderedQty": 40, "unitPrice": 1900.0, "total": 76000.0, "plant": "1010 (US East)" },
+    "grData": { "receivedQty": 35, "receivedDate": "2026-08-21", "status": "PARTIALLY_RECEIVED", "dockLocation": "Bay-03" },
+    "invoiceData": {
+      "invoicedQty": 40,
+      "invoicedUnitPrice": 1900.0,
+      "totalAmount": 76000.0,
+      "currency": "USD",
+      "invoiceDate": "2026-08-23",
+      "blockCode": "BD",
+      "blockReason": "Partial Delivery Discrepancy (5 Units Backordered)",
+      "status": "BLOCKED"
+    },
+    "edgeCaseType": "UNRECEIVED_GOODS_DEFICIT"
+  }
+]
